@@ -1,0 +1,126 @@
+/* general styles */
+
+* {
+	box-sizing: border-box;
+}
+
+.clearfix {
+	clear: both;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/*--- Background Styles
+--------------------------*/
+
+.bgImage {
+    background-image: url(../img/back.png);
+    background-color: #333;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+#container {
+  position: absolute;
+  width: 100%;
+  padding: 20px 20px 20px 20px; 
+  float: left;
+  
+}
+
+.bgImage, .imageOne {
+  position: absolute;
+  
+}
+
+h1{
+  font-family: 'Cinzel Decorative', cursive;
+  text-align: center;
+  font-size: 4em;
+  color: darkgoldenrod
+  
+}
+
+/*--- Animated Div change color Styles
+--------------------------*/
+.animated_bg {
+	background: #ef008c; 
+	color: #fff;
+    height: 300px;
+    width: 300px;
+}
+.animated_bg2 {
+	background: #abebfe; 
+	color: #000;
+    height: 300px;
+    width: 300px;
+}
+.animated_bg3 {
+	background: #71a98b; 
+	color: #fff;
+    height: 300px;
+    width: 300px;
+    
+}
+
+div{
+    float: left
+}
+
+/*--- 
+Headings, text and paragraph Styles.
+--------------------------*/
+
+h2 {
+  text-align: center;
+  font-family: 'Fondamento', cursive;
+  color: crimson;
+  font-size: 2em;
+    text-decoration-line: underline;
+}
+
+.text p{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Calligraffitti', cursive;
+    padding: 20px 50px 20px 50px;
+    font-size: 25px;
+    margin: 
+
+v}
+
+.text {
+    padding: 20px;
+}
+
+
+/*--- 
+Position and scaling of images and divs.
+--------------------------*/
+.animated_bg, .animated_bg2, .animated_bg3 {
+    position: relative;
+    left: 490px; 
+    
+}
+
+.dragonOne {
+    width: 250px;
+    margin: 20px;
+
+.dragonThree{
+    width: 300px;
+
+}
+
+.float#read{
+        text-align: center
+    }
+    
+
+
+
+
